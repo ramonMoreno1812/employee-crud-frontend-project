@@ -4,7 +4,6 @@ import FooterComponent from "./components/FooterComponent";
 import ListAllEmployees from "./components/ListAllEmployees";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-
 function App() {
   return (
     <div>
