@@ -1,3 +1,16 @@
+Front-end Employee Crud System.
+
+This project is the front-end half to my full-stack project with java spring boot backend. 
+This project displays a list of employees found in my database (must first be created in MySql workbench *create database(name of database in applications.properties in backend code.)) onto a html table, and allows the user 
+to create a new employee, update a record or delete a record. 
+
+I use the Axios library to create a service class
+and set up an API to allow for the CRUD operations to my backend. I also include a way to sort my data by first, last name and Id by using built in sorting methods provided to me by the spring-boot framework. 
+
+I display my data to my table using the ES6 .map function and, state functions of the React framework. 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

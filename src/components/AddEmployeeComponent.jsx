@@ -7,7 +7,7 @@ const AddEmployeeComponent = () => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setlastName] = useState("");
   const [email, setEmail] = useState("");
-  //create employee object
+  //create employee object from inputing the states from above code.
   const employee = { firstName, lastName, email };
 
   // errors to be displayed when inputs are wrong
